@@ -1,0 +1,14 @@
+<model-viewer src="sanriocc.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.52" shadow-softness="0.12" tone-mapping="commerce" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.22738251049007438m 0.14024464148452037m -0.010523605490306565m" data-normal="-0.9985473604968985m -0.0046034082725086925m 0.05368405235220071m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">它可以裝東西喔</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.0023586229931621162m 0.1399763627724005m 0.13493642819450524m" data-normal="0.13192250029745328m 0.0353943142685515m 0.9906279303718059m" data-visibility-attribute="visible"></button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
