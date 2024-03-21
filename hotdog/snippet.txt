@@ -1,0 +1,14 @@
+<model-viewer src="scene.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="109.94696432064524m 82.90168323913633m -20.4534050500194m" data-normal="0.516064862111423m 0.4703304003302594m -0.7158675663969531m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">蜂蜜芥末醬</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
